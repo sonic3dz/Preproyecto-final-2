@@ -186,6 +186,19 @@ label{
     margin-top: 60px;
 }
 
+/* CSS ELECTRONICA */
+
+.mainElectronica{
+    margin: none;
+}
+
+.tituloElectronica{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 40px;
+}
+
+
     
   
 
