@@ -107,6 +107,10 @@ main section p{
 iframe{
 }
 
+#carouselExampleCaptions{
+    max-width: 600px;
+}
+
 /* FOOTER */
 
 footer{
