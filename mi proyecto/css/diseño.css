@@ -24,9 +24,11 @@ header{
 header img{
     max-width:80px;
     margin-top: auto;
+    width: 100%;
 }
 
 h1{
+    display: flex;
     color:#EDEFF1;  
     font-size: 3rem;       
 }
@@ -34,7 +36,7 @@ h1{
 header ul{
     display: flex;
     justify-content:center; 
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 header ul li {
@@ -42,7 +44,6 @@ header ul li {
     font-size: 18px;
     list-style-type: none;
     margin: 0 15px 25px ;
-    flex-wrap: wrap;
 }
 
 header ul li a {
@@ -50,22 +51,23 @@ header ul li a {
     font-weight:bold;
     color:#D3E3F3;
     display: flex;
-    flex-wrap: wrap;
 }
 
 /* NAV */
 
 nav {
-    padding: 10px auto;    
+    padding: 5px;    
     background-color: #3767B8;
     position: sticky;
- 
+    margin-top: auto;
+    
 }
 
 nav ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 nav ul li{
@@ -103,7 +105,8 @@ input{
 }
 
 main section img{
-    max-width: 500px
+    max-width: 500px;
+    width: 100%;
 }
 
 main section p{
@@ -111,6 +114,8 @@ main section p{
 }
 
 iframe{
+    max-width: 500px;
+    width: 100%;
 }
 
 #carouselExampleCaptions{
