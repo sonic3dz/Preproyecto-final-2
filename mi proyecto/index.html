@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E.E.S.T N°6</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/diseño.css">
     <link rel="shortcut icon" href="imagen/Escudo de la escuela.png" type="image/x-icon">
 </head>
 
 <body>
+
     <!-- HEADER -->
     <header>
         <img src="imagen/Escudo de la escuela.png" alt="escudo de la escuela">
         <h1>Escuela Secundaria Tecnica n°6</h1>
         <ul>
-            <li> 
+            <li>
                 <a class="sesionRegister" href="pages/iniciarsesion.html">Iniciar sesion</a>
-            </li> 
-            
-            <li> 
+            </li>
+
+            <li>
                 <a href="#">Registrarse</a>
             </li>
         </ul>
@@ -31,31 +34,41 @@
     <nav class="contenedorNav">
         <div>
             <div>
-                <ul>
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-        
-                    <li>
-                        <a href="../mi proyecto/pages/electronica.html">Electronica</a>
-                    </li>
-        
-                    <li>
-                        <a href="#">Informatica</a>
-                    </li>
-        
-                    <li>
-                        <a href="#">Materias</a>
-                    </li>
-        
-                    <li>
-                        <a href="#">Inscripcion</a>
-                    </li>
-        
-                    <li>
-                        <a href="#">Informacion</a>
-                    </li>
-                </ul>
+                <nav class="navbar navbar-expand-sm text-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="electronica.html">Electronica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="nformatica.html">Informatica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="inscribirse.html">inscribirse</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="informacion.html">Informacion</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-light" href="materias.html" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Materias
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
 
         </div>
@@ -63,86 +76,107 @@
 
     <!-- MAIN -->
 
-    <main class="contenedorMain">
-    <section>
-        <div>
+    <main>
+        <section class="contenedorSection">
             <div class="noticiasAvisos">
-                <h2>NOTICIAS Y AVISOS</h2>
-    
-                <input type="date">
-    
-                <p class="noticiasParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum natus, suscipit facilis
-                    adipisci id, aspernatur eos dignissimos repellendus laborum quibusdam accusantium unde, quas quae nemo
-                    consectetur numquam optio ipsum magni Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa expedita sequi quisquam beatae praesentium, officiis modi inventore aliquid fugit, rerum quae hic eos? Vero eaque, numquam eum ipsum provident quas!.
-                </p>
+                <div>
+                    <h2>NOTICIAS Y AVISOS</h2>
 
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.402422179462!2d-58.57751574999463!3d-34.69502856974457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6151b90a33f%3A0x4f6ccca5b2d439a0!2sEscuela%20tecnica%20n%C2%BA6!5e0!3m2!1ses!2sar!4v1660614690336!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade" class="iframeMapa"></iframe>
-            </div> 
-        </div>
-           
-        <div>
-            <div class="imagenHistoria">
-                <img class="mainImgp" src="imagen/foto de la escuela.jpg" alt="imagen de foto de la escuela">
-                <p class="mainImgp">
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis dolorem doloremque sed ex. Blanditiis, sit earum! Explicabo incidunt beatae fugit hic eligendi delectus perferendis. Quasi esse quod quam consequuntur?
-                 Quod minima ea quia, quisquam dicta veniam dolores velit ipsa enim totam laborum amet quasi. Optio magni nemo tenetur dolores eligendi deserunt architecto itaque ut repudiandae necessitatibus, ullam est omnis.
-                 Esse sunt dicta non animi magnam, eius nostrum distinctio quos aliquid. Rerum aspernatur voluptates dolore velit. Rerum laudantium ipsam, debitis numquam quos squam amet culpa, architecto, voluptatum aperiam eligendi ipsum.
-                </p>
-    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit, necessitatibus aliquam ex, distinctio deserunt veniam facilis labore debitis sit corporis nihil, in delectus cumque? Incidunt explicabo ad similique ex.
-               Assumenda, error itaque! Aliquid sequi illo facere odio nostrum eligendi id et! Possimus reprehenderit vel quidem perspiciatis sint qui eligendi dolore iusto delectus, dolorum debitis nemo at quas nulla totam.    Voluptas molestias aspernatur reprehenderit quis itaque qui autem modi optio magnam eaque velit iusto cumque harum delectus voluptates vero dignissimos illo consequatur quas aliquam, earum non provident. Quas, tempora incidunt.
-                </p>
+                    <input type="date">
+
+                    <p class="noticiasParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum natus,
+                        suscipit facilis
+                        adipisci id, aspernatur eos dignissimos repellendus laborum quibusdam accusantium unde, quas
+                        quae nemo
+                        consectetur numquam optio ipsum magni Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Ipsa expedita sequi quisquam beatae praesentium, officiis modi inventore aliquid fugit, rerum
+                        quae hic eos? Vero eaque, numquam eum ipsum provident quas!.
+                    </p>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.402422179462!2d-58.57751574999463!3d-34.69502856974457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6151b90a33f%3A0x4f6ccca5b2d439a0!2sEscuela%20tecnica%20n%C2%BA6!5e0!3m2!1ses!2sar!4v1660614690336!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="iframeMapa"></iframe>
+                </div>
             </div>
-        </div>
-         
-     </section>
 
-         <div>
-            <h3>Galeria de videos y imagenes</h3>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="imagenHistoria">
+                <div>
+                    <img class="mainImgp" src="imagen/foto de la escuela.jpg" alt="imagen de foto de la escuela">
+                    <p class="mainImgp">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis dolorem
+                        doloremque sed ex. Blanditiis, sit earum! Explicabo incidunt beatae fugit hic eligendi delectus
+                        perferendis. Quasi esse quod quam consequuntur?
+                        Quod minima ea quia, quisquam dicta veniam dolores velit ipsa enim totam laborum amet quasi.
+                        Optio magni nemo tenetur dolores eligendi deserunt architecto itaque ut repudiandae
+                        necessitatibus, ullam est omnis.
+                        Esse sunt dicta non animi magnam, eius nostrum distinctio quos aliquid. Rerum aspernatur
+                        voluptates dolore velit. Rerum laudantium ipsam, debitis numquam quos squam amet culpa,
+                        architecto, voluptatum aperiam eligendi ipsum.
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit, necessitatibus aliquam ex,
+                        distinctio deserunt veniam facilis labore debitis sit corporis nihil, in delectus cumque?
+                        Incidunt explicabo ad similique ex.
+                        Assumenda, error itaque! Aliquid sequi illo facere odio nostrum eligendi id et! Possimus
+                        reprehenderit vel quidem perspiciatis sint qui eligendi dolore iusto delectus, dolorum debitis
+                        nemo at quas nulla totam. Voluptas molestias aspernatur reprehenderit quis itaque qui autem modi
+                        optio magnam eaque velit iusto cumque harum delectus voluptates vero dignissimos illo
+                        consequatur quas aliquam, earum non provident. Quas, tempora incidunt.
+                    </p>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../mi proyecto/imagen/foto de la escuela 3.jpg" class="d-block w-100" alt="foto de la escuela">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+            </div>
+
+            <div class="videosImagenes">
+                <h3>Galeria de videos y imagenes</h3>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagen/foto de la escuela 2.jpg" class="d-block w-100" alt="foto de la escuela">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imagen/paisaje.jpg" class="d-block w-100" alt="foto de la escuela">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagen/paisaje2.jpg" class="d-block w-100" alt="foto de la escuela">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagen/paisaje3.jpg" class="d-block w-100" alt="foto de la escuela">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagen/foto de la escuela 4.jpg" class="d-block w-100" alt="foto de la escuela">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-         </div>
+            </div>
+
+        </section>
     </main>
- 
+
     <!-- FOOTER -->
 
     <footer>
@@ -151,15 +185,20 @@
             <li>Matanza, Buenos aires, argentina</li>
             <li>44851140</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae voluptatibus in facilis quasi quia dolorum quam eaque, a esse ea autem rem perferendis quod minus? Reiciendis voluptates ipsum eligendi?
-        Ut, rem quia maxime minima veritatis neque repellendus distinctio. Quis laboriosam neque iusto sequi assumenda quidem fugiat? Rerum, sapiente. Nam ad quam modi animi, debitis tenetur natus quae facere quaerat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae voluptatibus in facilis quasi quia
+            dolorum quam eaque, a esse ea autem rem perferendis quod minus? Reiciendis voluptates ipsum eligendi?
+            Ut, rem quia maxime minima veritatis neque repellendus distinctio. Quis laboriosam neque iusto sequi
+            assumenda quidem fugiat? Rerum, sapiente. Nam ad quam modi animi, debitis tenetur natus quae facere quaerat.
+        </p>
     </footer>
-  
 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

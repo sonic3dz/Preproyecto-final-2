@@ -16,7 +16,7 @@
             <h1>Escuela Secundaria Tecnica n°6</h1>
             <ul>
                 <li> 
-                    <a class="sesionRegister" href="pages/iniciarsesion.html">Iniciar sesion</a>
+                    <a class="sesionRegister" href="iniciarsesion.html">Iniciar sesion</a>
                 </li> 
                 
                 <li> 
@@ -26,32 +26,47 @@
     </header>
     
 
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
+    <nav class="contenedorNav">
+        <div>
+            <div>
+                <nav class="navbar navbar-expand-sm text-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="electronica.html">Electronica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="informatica.html">Informatica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="inscribirse.html">inscribirse</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="informacion.html">Informacion</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-light" href="materias.html" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Materias
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
 
-            <li>
-                <a href="../pages/electronica.html">Electronica</a>
-            </li>
-
-            <li>
-                <a href="#">Informatica</a>
-            </li>
-
-            <li>
-                <a href="#">Inscribirse</a>
-            </li>
-
-            <li>
-                <a href="#">Informacion</a>
-            </li>
-
-            <li>
-                <a href="#">Materias</a>
-            </li>
-        </ul>
+        </div>
     </nav>
 
     <main class="mainSesion">
