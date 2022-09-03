@@ -122,9 +122,6 @@ h2{
     text-align: center;
 }
 
-input{
-}
-
 .noticiasParrafo{
     max-width:300px;
     width: 100%;
@@ -158,13 +155,27 @@ h3{
 
 /* FOOTER */
 
+.footerPadre{
+    display: grid;
+    grid-template-areas: "informacion descripcion";
+}
+
+.descripcionFooter{
+    grid-area: descripcion;
+    margin-left:auto;
+}
+
+.informacionFooter{
+    grid-area: informacion;
+}
+
 footer{
     background-color: #3767B8;
     padding: 1px 1px 1px 1px;
 }
 
 footer ul{
-    margin:auto;
+    margin-left: auto auto;
 }
 
 footer ul li{
@@ -214,10 +225,6 @@ label{
     margin-top: 10px;
 }
 
-.footerSesion{
-    margin-top:auto;
-}
-
 /* CSS ELECTRONICA */
 
 .tituloElectronica{
@@ -242,11 +249,6 @@ label{
     max-width: 280px;
     justify-content: center;
     margin:auto;
-}
-
-@media(max-width:450px){
-    
-    
 }
 
 
